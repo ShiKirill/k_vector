@@ -85,9 +85,6 @@
 img.wrong-rotation {
     -o-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
-    /*transform: rotate(90deg);
- -webkit-transform: rotate(90deg);*/
-    -moz-transform: rotate(90deg);
 }
 
 .my-carousel img {
@@ -179,4 +176,34 @@ a.sidebar-toggle {
 
 a.sidebar-toggle:hover {
     text-decoration: none;
+}
+
+@media screen and (max-width: 1220px) {
+    .samples_list_sidebar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 40px;
+        line-height: 40px;
+        width: 180px;
+        left: -80px;
+    }
+    a.sidebar-toggle {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 578px) {
+    .samples_list_sidebar {
+        padding-bottom: 4px;
+    }
+    .col-12 h1,
+    .my-carousel img,
+    .col-lg-6{
+        width: 90%;
+        margin: 0 auto;
+    }
+    html {
+        font-size: 70%;
+    }
 }
