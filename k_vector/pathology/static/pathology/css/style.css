@@ -188,6 +188,7 @@ a.sidebar-toggle:hover {
         width: 180px;
         left: -80px;
     }
+
     a.sidebar-toggle {
         font-size: 16px;
     }
@@ -197,12 +198,14 @@ a.sidebar-toggle:hover {
     .samples_list_sidebar {
         padding-bottom: 4px;
     }
+    
     .col-12 h1,
     .my-carousel img,
     .col-lg-6{
         width: 90%;
         margin: 0 auto;
     }
+
     html {
         font-size: 70%;
     }
